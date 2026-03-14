@@ -29,19 +29,20 @@ function App() {
   transition={{ duration: 1 }}
   className="flex flex-col items-center gap-4"
 >
-  <img
-    src={image1}
-    className="w-[60vh] rounded-xl shadow-xl"
-    alt="Thu"
-  />
-
-  <a
+         <a
     href={image1}
     download="buc-thu.png"
     className="px-6 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
   >
     Download ảnh 📥
   </a>
+  <img
+    src={image1}
+    className="w-[60vh] rounded-xl shadow-xl"
+    alt="Thu"
+  />
+
+ 
 </motion.div>
   );
 }
