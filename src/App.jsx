@@ -35,9 +35,7 @@ function App() {
             alt="Thu"
           />
 
-          <h2 className="text-2xl font-bold text-pink-600">
-            Gui emm 
-          </h2>
+         
         </motion.div>
       )}
 
