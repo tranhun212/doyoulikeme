@@ -37,15 +37,15 @@ function App() {
 
          
         </motion.div>
-      <a
+    
+      )}
+  <a
     href={image1}
     download="buc-thu.png"
     className="px-6 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
   >
     Download ảnh 📥
   </a>
-      )}
-
     </div>
   );
 }
