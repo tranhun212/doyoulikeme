@@ -23,22 +23,18 @@ function App() {
           Đọc thư 
         </motion.button>
       ) : (
-       <motion.div
+      <motion.div
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
   transition={{ duration: 1 }}
   className="flex flex-col items-center gap-4"
 >
-          <img
-            src={image1}
-            className="w-[60vh] rounded-xl shadow-xl"
-            alt="Thu"
-          />
+  <img
+    src={image1}
+    className="w-[60vh] rounded-xl shadow-xl"
+    alt="Thu"
+  />
 
-         
-        </motion.div>
-    
-      )}
   <a
     href={image1}
     download="buc-thu.png"
@@ -46,7 +42,7 @@ function App() {
   >
     Download ảnh 📥
   </a>
-    </div>
+</motion.div>
   );
 }
 
