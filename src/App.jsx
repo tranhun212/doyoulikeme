@@ -20,14 +20,15 @@ function App() {
           whileTap={{ scale: 0.9 }}
           className="px-8 py-4 bg-pink-500 text-white text-xl font-bold rounded-xl shadow-lg"
         >
-          Đọc thư 💌
+          Đọc thư 
         </motion.button>
       ) : (
-        <motion.div
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          className="flex flex-col items-center gap-4"
-        >
+       <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 1 }}
+  className="flex flex-col items-center gap-4"
+>
           <img
             src={image1}
             className="w-[60vh] rounded-xl shadow-xl"
@@ -35,7 +36,7 @@ function App() {
           />
 
           <h2 className="text-2xl font-bold text-pink-600">
-            Một bức thư dành cho em ❤️
+            Gui emm 
           </h2>
         </motion.div>
       )}
