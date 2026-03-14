@@ -28,7 +28,7 @@ function App() {
           className="flex flex-col items-center gap-4"
         >
           <img
-            src="https://iili.io/FhHO9Rf.jpg"
+            src="https://zpic.io/view/7RWV5oCR"
             className="w-[60vh] rounded-xl shadow-xl"
             alt="Thu"
           />
