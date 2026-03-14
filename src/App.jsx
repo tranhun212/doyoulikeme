@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { motion } from "framer-motion";
+import image1 from "./image1.png";
 
 function App() {
   const [openLetter, setOpenLetter] = useState(false);
@@ -28,7 +29,7 @@ function App() {
           className="flex flex-col items-center gap-4"
         >
           <img
-            src="https://zpic.io/view/7RWV5oCR"
+            src="image1"
             className="w-[60vh] rounded-xl shadow-xl"
             alt="Thu"
           />
