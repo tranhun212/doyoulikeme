@@ -29,7 +29,7 @@ function App() {
           className="flex flex-col items-center gap-4"
         >
           <img
-            src="image1"
+            src={image1}
             className="w-[60vh] rounded-xl shadow-xl"
             alt="Thu"
           />
