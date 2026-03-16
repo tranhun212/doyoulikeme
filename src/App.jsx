@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { motion } from "framer-motion";
-import image1 from "./image1.png";
+import image1 from "./image2.png";
 
 function App() {
   const [openLetter, setOpenLetter] = useState(false);
